@@ -57,4 +57,4 @@ dkms.conf
 .idea/
 *.txt
 .clang-format
-mac\
+mac/
