@@ -10,13 +10,14 @@ int main(void) {
     printf("Please enter an interger to be summed \n");
     printf("(q to quit): \n");
     status = scanf("%ld", &num);
-
+    printf("%d\n", status);
     while (status == 1) {
+
         sum = sum + num;
         printf("Please enter next integer (q to quit): \n");
         status = scanf("%ld", &num);
-    }
 
-    printf("Those integers sum to %ld.\n", sum);
-    return 0;
+        printf("Those integers sum to %ld.\n", sum);
+        return 0;
+    }
 }
