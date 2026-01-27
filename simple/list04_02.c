@@ -10,9 +10,15 @@ int main(void) {
 
     if (num1 < num2) {
         sum = num1;
-        while (num1 <= sum && sum < num2) {
+        while (num1 < num2) {
             num1++;
             sum += num1;
+        }
+    } else {
+        sum = num2;
+        while (num2 < num1) {
+            num2++;
+            sum += num2;
         }
     }
 
