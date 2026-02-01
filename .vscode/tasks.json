@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Current File (macOS)",
+      "type": "shell",
+      "command": "clang",
+      "args": ["-g", "${file}", "-o", "${workspaceFolder}/cmake-build-debug/${fileBasenameNoExtension}"]
+    },
+    {
+      "label": "Build Current File (WSL)",
+      "type": "shell",
+      "command": "gcc",
+      "args": ["-g", "${file}", "-o", "${workspaceFolder}/cmake-build-debug/${fileBasenameNoExtension}"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🚀 Debug in macOS (Current File)",
+      "type": "codelldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/cmake-build-debug/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build Current File (macOS)",
+      "stopOnEntry": false
+    },
+    {
+      "name": "🐧 Debug in WSL (Current File)",
+      "type": "codelldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/cmake-build-debug/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build Current File (WSL)",
+      "stopOnEntry": false,
+      "terminal": "integrated"
+    }
+  ]
+}
