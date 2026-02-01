@@ -7,6 +7,7 @@ int main(int argc, char* argv[]) {
 	float temperature;
 	int cold_days = 0;
 	int all_days = 0;
+
 	printf("Enter the list of daily low temperatures.\n");
 	while (scanf("%f", &temperature) == 1) {
 		all_days++;
