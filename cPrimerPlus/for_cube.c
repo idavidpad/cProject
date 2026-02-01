@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int main(void) {
+
     int num;
     printf("    n     cubed\n");
 
