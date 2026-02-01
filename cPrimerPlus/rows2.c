@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 	char ch;
 
 	for (row = 0; row < ROWS; row++) {
-		for (ch = 'A'; ch < 'A' + CHARS; ch++) {
+		for (ch = 'A' + row; ch < 'A' + CHARS; ch++) {
 			printf("%c ", ch);
 		}
 		printf("\n");
