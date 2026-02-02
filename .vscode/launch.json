@@ -15,7 +15,7 @@
       "name": "🐧 Debug in WSL (Current File)",
       "type": "codelldb",
       "request": "launch",
-      "program": "${workspaceFolder}/cmake-build-debug/${fileBasenameNoExtension}",
+      "program": "${workspaceFolder}/cmake-build-debug/bin/${fileBasenameNoExtension}",
       "args": [],
       "cwd": "${workspaceFolder}",
       "preLaunchTask": "Build Current File (WSL)",
