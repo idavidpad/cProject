@@ -5,6 +5,7 @@
       "label": "Build Current File (macOS)",
       "type": "shell",
       "command": "clang",
+<<<<<<< HEAD
       "args": [
         "-g",
         "${file}",
@@ -12,6 +13,9 @@
         "${workspaceFolder}/cmake-build-debug/${fileBasenameNoExtension}"
       ],
       "group": "build"
+=======
+      "args": ["-g", "${file}", "-o", "${workspaceFolder}/cmake-build-debug/bin/${fileBasenameNoExtension}"]
+>>>>>>> c1774796843636a5e16d18799ad1e24019d0f7a4
     },
     {
       "label": "Build Current File (WSL)",

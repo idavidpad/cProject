@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #define STOP '|'
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
 	char c;
 	char prev;
 	long n_chars = 0;
