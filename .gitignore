@@ -71,23 +71,20 @@ bin/
 
 # 忽略 CLion 产生的索引和二进制文件
 cmake-build-debug/
-.cache/
 simple/compile_commands.json
 *.cmake
-CMakeCache.txt
-CMakeFiles/
 # CMake 缓存与中间文件
-#CMakeFiles/
-#CMakeCache.txt
-#cmake_install.cmake
-#Makefile
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 #
 ## LSP 缓存
-#.cache/
-#.clangd/
+.cache/
+.clangd/
 #
 ## 项目索引（重要：不要同步，让每个系统自己生成）
-#compile_commands.json
+compile_commands.json
 #
 ## 编辑器私有配置
-#.vscode/
+.vscode/
