@@ -72,7 +72,7 @@ bin/
 # 忽略 CLion 产生的索引和二进制文件
 cmake-build-debug/
 .cache/
-compile_commands.json
+simple/compile_commands.json
 *.cmake
 CMakeCache.txt
 CMakeFiles/
