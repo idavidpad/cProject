@@ -3,12 +3,12 @@
 #include <stdlib.h>
 void display(char cr, int lines, int width);
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
 	int ch;
 	int rows, cols;
 	printf("Enter a character and two integers:\n");
 	while ((ch = getchar()) != '\n') {
-		scanf("%d %d ", &rows, &cols);
+		scanf("%d %d", &rows, &cols);
 		display(ch, rows, cols);
 		printf("Enter another character and two integers;\n");
 		printf("Enter a newline to quit.\n");

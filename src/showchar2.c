@@ -3,7 +3,7 @@
 #include <stdlib.h>
 void display(char cr, int lines, int width);
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
 	int ch;
 	int rows, cols;
 	printf("Enter a character and two integers:\n");
@@ -11,7 +11,6 @@ int main(int argc, char *argv[]) {
 		if (scanf("%d %d", &rows, &cols) != 2) {
 			break;
 		}
-		scanf("%d %d ", &rows, &cols);
 		display(ch, rows, cols);
 		while (getchar() != '\n') {
 			continue;
