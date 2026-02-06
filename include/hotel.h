@@ -1,3 +1,7 @@
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #define QUIT 5
 #define HOTEL1 180.00
 #define HOTEL2 225.00
@@ -9,3 +13,7 @@
 int menu(void);
 int getnights(void);
 void showprice(double rate, int nights);
+
+#ifdef __cplusplus
+}
+#endif
