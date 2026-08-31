@@ -3,11 +3,6 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-	char ch;
-	while ((ch = getchar()) != '#') {
-		putchar(ch);  // 输出字符
-	}
-
-
+	printf("welcome to c!\n");
 	return EXIT_SUCCESS;
 }
