@@ -1,0 +1,7 @@
+# clangd 配置：让 clangd 通过共享的 gcc 解析头文件（stdio.h 等）
+# 关键：这个 clangd 构建默认是 MSVC 目标，必须强制成 GNU/MinGW 目标，
+# 否则它会去 MSVC 的目录找 stdio.h 而报 "file not found"。
+CompileFlags:
+  Compiler: gcc
+  Add:
+    - --target=x86_64-w64-windows-gnu
