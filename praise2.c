@@ -4,7 +4,7 @@
 #include <string.h>
 #define PRAISE "You are an extraordinary being."
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
 	char name[40];
 
 	printf("What is your name? ");

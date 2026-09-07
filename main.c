@@ -1,14 +1,14 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#define PRAISE "You are an extraordinary being."
+#define PRAISE "You are an extraordinary being"
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
 	char name[40];
 
-	printf("What is your name? ");
+	printf("What's your name: \n");
 	scanf("%s", name);
-	printf("Hello, %s, %s", name, PRAISE);
 
+	printf("Hello, %s. %s\n", name, PRAISE);
 	return EXIT_SUCCESS;
 }
