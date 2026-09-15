@@ -24,6 +24,22 @@
         "${workspaceFolder}/cmake-build-debug/bin/${fileBasenameNoExtension}"
       ],
       "group": "build"
+    },
+    {
+      "label": "Build Current File (Windows)",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${workspaceFolder}/cmake-build-debug/bin/${fileBasenameNoExtension}.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
     }
   ]
 }

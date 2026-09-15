@@ -21,6 +21,20 @@
       "preLaunchTask": "Build Current File (WSL)",
       "stopOnEntry": false,
       "terminal": "integrated"
+    },
+    {
+      "name": "🐞 Debug in Windows (Current File)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/cmake-build-debug/bin/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\Users\\idavid\\scoop\\apps\\gdb\\current\\bin\\gdb.exe",
+      "preLaunchTask": "Build Current File (Windows)"
     }
   ]
 }
