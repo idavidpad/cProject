@@ -1,0 +1,22 @@
+#include <math.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[]) {
+	double a;
+	double b;
+
+	printf("This app will calculate the hypotenuse of a right triangle\n");
+	printf("Enter the first value: ");
+	scanf("%lf", &a);
+
+	printf("Now enter the second value: ");
+	scanf("%lf", &b);
+
+	double c = sqrt((a * a) + (b * b));
+
+	printf("The hypotenuse is %f\n", c);
+
+	return EXIT_SUCCESS;
+}
